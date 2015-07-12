@@ -96,6 +96,7 @@ int main(int argc, const char * argv[]) {
             newEvent.endDate = entry.date;
             newEvent.alarms = nil;
             newEvent.allDay = entry.allDay;
+            newEvent.availability = EKEventAvailabilityFree;
 
             // save the event
             error = nil;
